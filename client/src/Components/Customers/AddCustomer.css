@@ -1,0 +1,43 @@
+.AddCustomer-box {
+    position: fixed;
+    /* z-index: 1; */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: right;
+}
+
+.AddCustomer-Box-Content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 20%;
+}
+
+.AddCustomer-Title{
+    text-align: center;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.AddCustomer-InputBox{
+    display: grid;
+}
+
+.AddCustomer-Label{
+    text-align: center;
+    padding: 5px;
+}
+
+.AddCustomer-Buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.AddCustomer-Buttons{
+    padding: 15px;
+}

@@ -1,0 +1,22 @@
+.OrderBox-Content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 20%;
+}
+
+.OrderCustomer-Label{
+    display: block;
+    text-align-last: center;
+    font-weight: bolder;
+}
+
+.OrderItem-Row{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.OrderItem{
+    margin-right: 20px;
+}

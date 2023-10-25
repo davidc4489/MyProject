@@ -1,0 +1,70 @@
+.Employees{
+    display: flex;
+}
+
+.EmployeesPage-Buttons{
+    width: 90vw;
+    justify-content: space-around;
+    display: flex;
+    background: grey;
+}
+
+.EmployeesPage-Button{
+    width: 24vw;
+    background: grey;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.EmployeesPage-Button:hover{
+    background: lightgrey;
+}
+
+.EmployeesPage-AddEmployee-Button{
+    width: 20vw;
+    background: rgb(43, 43, 44);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.EmployeesPage-AddEmployee-Button:hover{
+    background: lightgrey;
+}
+
+.Employees-TitlePage{
+    text-align: center;
+    padding: 10px;
+}
+
+.Employees-Headers {
+    background-color: white;
+    display: inline-flex;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-weight: bolder;
+    width: 100%;
+  }
+
+.Employees-Header{
+    width: 9.9vw;
+    min-width: fit-content;
+}
+
+.Employees-EmployeeRow {
+    background-color: white;
+    display: inline-flex;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+  }
+
+.Employee-row-field{
+    width:9.9vw
+}

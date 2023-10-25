@@ -1,0 +1,50 @@
+.BillBox {
+    position: fixed;
+    /* z-index: 1; */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: right;
+}
+
+.BillBox-Content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 40%;
+}
+
+.BillItem{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-bottom: 1px solid grey;
+    margin-bottom: 2px;
+}
+
+.BillItem-Case{
+    padding: 5px;
+}
+
+.BillBox-TotalBill{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.BillBox-TotalBill-Text{
+    font-weight: bolder;
+}
+
+.CustomerBill-Buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.CustomerBill-Button{
+    margin: 5px;
+    width: max-content;
+}
